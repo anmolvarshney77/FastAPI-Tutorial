@@ -1,0 +1,14 @@
+To check python version:
+python --version 
+To create virtual environment(myenv):
+python -m venv myenv
+To Activate virtual environment:
+myenv\Scripts\Activate.ps1
+To check pip version:
+pip --version
+To install the package:
+pip install <package>
+To install from requirements.txt:
+pip install -r requirements.txt
+To create requirements.txt:
+pip freeze > requirements.txt
